@@ -1,1 +1,1 @@
-alert("Welcome to the store!");
+//alert("Welcome!");
