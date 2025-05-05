@@ -91,6 +91,23 @@
             background: rgba(44, 44, 46, 0.9);
         }
 
+        .card a {
+            color: #007aff;
+            text-decoration: none;
+        }
+
+        body.dark .card a {
+            color: #2997ff; /* Lighter blue for dark mode */
+        }
+
+        .card a:hover {
+            color: #005bb5; /* Slightly darker on hover */
+        }
+
+        body.dark .card a:hover {
+            color: #66b0ff; /* Lighter hover for dark mode */
+        }
+
         .skills-grid, .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -142,7 +159,11 @@
             <h1>Adam Mason</h1>
             <div class="card">
                 <p>Computer Science student at Penn State, graduating May 2025. Passionate about building user-friendly software and solving real-world problems. Experienced in IT support and full-stack development.</p>
-                <p>Email: <a href="mailto:amason2203@mail.com">amason2203@mail.com</a> | GitHub: <a href="https://github.com/adman2203">adman2203</a></p>
+                <p>
+                    Email: <a href="mailto:amason2203@gmail.com">amason2203@gmail.com</a> | 
+                    GitHub: <a href="https://github.com/adman2203">adman2203</a> | 
+                    LinkedIn: <a href="https://www.linkedin.com/in/adam-mason-935a9b236/">Adam Mason</a>
+                </p>
             </div>
         </section>
 
@@ -155,6 +176,24 @@
                 <div class="skill-item">SQL</div>
                 <div class="skill-item">Swift</div>
                 <div class="skill-item">HTML</div>
+                <τερ
+                    GitHub: <a href="https://github.com/adman2203">adman2203</a> | 
+                    LinkedIn: <a href="https://www.linkedin.com/in/adam-mason-935a9b236/">Adam Mason</a>
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">C</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">DBMS</div>
+                <div class="skill-item">Swift</div>
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">System Administration</div>
                 <div class="skill-item">Git</div>
                 <div class="skill-item">Docker</div>
                 <div class="skill-item">VSCode</div>
@@ -168,6 +207,10 @@
                 <div class="project-item">
                     <h3>Habit Tracking App</h3>
                     <p>Developing an iOS app using Swift to track daily habits and schedules, with time-blocking features.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Suter Hardware Storefront</h3>
+                    <p>Developing a website for Suter Hardware, allowing customers to provide their details to get car keys made for their make and model.</p>
                 </div>
                 <div class="project-item">
                     <h3>Gym Management System</h3>
@@ -190,7 +233,7 @@
             <div class="card">
                 <h3>IT Service Desk Support Specialist</h3>
                 <p>Penn State University, August 2022 - Present</p>
-                <p>Provide technical support, troubleshoot classroom technology, and document incident tickets.</p>
+                <p>Provide technical support, troubleshoot classroom tech, and document incident tickets.</p>
             </div>
         </section>
     </div>
